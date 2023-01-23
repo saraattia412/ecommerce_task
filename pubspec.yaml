@@ -1,0 +1,42 @@
+name: ecommerce_task
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0-85.0.dev <4.0.0'
+
+dependencies:
+  animated_text_kit: null
+  conditional_builder_null_safety: null
+  cupertino_icons: null
+  dio: null
+  bloc: null
+  equatable: null
+  flutter:
+    sdk: flutter
+  flutter_bloc: null
+  percent_indicator: null
+  shared_preferences: null
+  sizer: ^2.0.15
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
